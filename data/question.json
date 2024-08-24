@@ -1,0 +1,109 @@
+{
+   "questions" :[
+    {
+    "question": "What is ReactJS primarily used for?",
+    "options": [  "Server-side scripting", "Building user interfaces",
+      "Database management","Graphic design", "answer_f"],
+      "correctOption": 2,
+      "points":10
+    },
+    {
+    "question": "What is JSX in React?",
+    "options": [  "A styling language", "A templating engine",
+      "A syntax extension for JavaScript","A state management library"],
+      "correctOption": 3,
+      "points":10
+    },
+    {
+    "question": " What is the purpose of React Components?",
+    "options": [  "Managing database connections", "Handling server-side logic",
+      "Building user interfaces into reusable pieces","Controlling browser settings"],
+      "correctOption": 3,
+      "points":10 
+    },
+    {
+    "question": "How is data passed between React components?",
+    "options": [  "Using global variables", "Through function parameters",
+      "Via HTTP requests", "Using props"],
+      "correctOption": 4,
+      "points":10 
+    },
+    {
+    "question": "What is the Virtual DOM in React used for?",
+    "options": [  "Storing user authentication data", "Efficiently updating and rendering components",
+      "Managing server-side rendering","Handling API requests"],
+      "correctOption": 2,
+      "points":10 
+    },
+    {
+    "question": "What is the purpose of the useState hook in React?",
+    "options": [  "Fetching data from an API", "Managing component state in functional components",
+      "Defining global variables","Creating event listeners"],
+      "correctOption": 2,
+      "points":10 
+    },
+    {
+    "question": "In React, what does the term props stand for?",
+    "options": [  "Properties", "Procedures",
+      "Prototypes","Parameters"],
+      "correctOption": 1,
+      "points":10   
+    },
+    {
+    "question": "How can you conditionally render content in React?",
+    "options": [  "Using the if-else statement", "With the renderIf function",
+      "Using the ternary operator (? :) ","Through the switch statement"],
+      "correctOption": 3,
+      "points":10 
+    },
+    {
+    "question": "What is the purpose of the onClick event handler in React?",
+    "options": [  "Handling keyboard events", "Triggering an action when a button is clicked",
+      "Managing state changes","Controlling page navigation"],
+      "correctOption": 2,
+      "points":10
+    },
+    {
+    "question": "What is the purpose of the useEffect hook in React?",
+    "options": [  "Managing component state", "Performing side effects in functional components",
+      "Handling HTTP requests","Controlling rendering logic"],
+      "correctOption": 2,
+      "points":10 
+    },
+    {
+    "question": "In React, what is the key role of the shouldComponentUpdate lifecycle method?",
+    "options": [  "Handling component initialization", "Controlling whether a component should re-render",
+      "Managing asynchronous operations","Defining default props"],
+      "correctOption": 2,
+      "points":10 
+    },
+    {
+    "question": "How does React Router help in navigation within a React application?",
+    "options": [  "By creating hyperlinks between components", "Enabling server-side rendering",
+      "Facilitating client-side routing","Managing global state"],
+      "correctOption": 3,
+      "points":10 
+    },
+    {
+    "question": "What is Redux used for in a React application?",
+    "options": [  "Styling and theming", "Managing component state",
+      "Handling asynchronous operations","State management in a predictable way"],
+      "correctOption": 4,
+      "points":10 
+    },
+    {
+    "question": "What is the purpose of the map function in React when rendering lists of components?",
+    "options": [  "Styling list items", "Iterating over array elements and rendering components",
+      "Sorting array elements","Filtering array elements"],
+      "correctOption": 2,
+      "points":10  
+    },
+    {
+    "question": "What is the significance of the React.Fragment in React?",
+    "options": [  "A state management library", "A wrapper for functional components",
+      "A placeholder for async operations","A wrapper to group multiple elements without adding an extra node to the DOM"],
+      "correctOption": 4,
+      "points":10 
+    }
+    ]
+}

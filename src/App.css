@@ -1,0 +1,160 @@
+.App {
+  text-align: center;
+}
+
+/* next and prev todo increase */
+
+.content-steps {
+  text-align: center;
+  margin: 60px;
+}
+
+.steps {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.content-steps .steps button {
+  background-color: #ddd;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 50%;
+  color: #181818;
+  font-size: 16px;
+  cursor: pointer;
+}
+.content-steps .steps button.active {
+  background-color: #00ab22;
+  color: #fff;
+}
+
+.content-steps p {
+  font-size: 22px;
+}
+.prev-next {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.content-steps .previous,
+.next {
+  background-color: #00ab22;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 12px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+body {
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+/* selected answer  */
+
+.flashcards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.flashcards div {
+  border: 1px solid #e7e7e7;
+  background-color: #f7f7f7;
+  border-radius: 7px;
+  aspect-ratio: 2 / 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  cursor: pointer;
+}
+
+div.selected {
+  border: 1px solid #e03131;
+  background-color: #e03131;
+  color: #fff;
+  font-weight: bold;
+}
+
+.accordion {
+  width: 700px;
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.item {
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+  padding: 20px 24px;
+  padding-right: 48px;
+  cursor: pointer;
+  border-top: 4px solid #fff;
+  border-bottom: 4px solid #fff;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  column-gap: 24px;
+  row-gap: 32px;
+  align-items: center;
+  text-align: left;
+}
+
+.number {
+  font-size: 24px;
+  font-weight: 700;
+  color: #ced4da;
+}
+.text {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.title,
+.icon {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.content-box {
+  grid-column: 2 / -1;
+  padding-bottom: 16px;
+  line-height: 1.6;
+}
+
+.content-box ul {
+  color: #868e96;
+  margin-left: 16px;
+  margin-top: 16px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* OPEN STATE */
+.open {
+  border-top: 4px solid #087f5b;
+  transition: 0.3s ease-in-out;
+}
+
+.open .number,
+.open .text {
+  color: #087f5b;
+  transition: 0.2s ease-in-out;
+}
+
+/*  account-bank */
+
+.account-bank {
+  margin: 200px 10px;
+}
+.inputs div {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+  align-items: center;
+}
