@@ -1,1 +1,1 @@
-### This project contains many To-Do created with React .\
+### This project contains many To-Do created with React .
